@@ -1,0 +1,458 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20204.20.1106.0321                               -->
+<workbook original-version='18.1' source-build='2020.4.0 (20204.20.1106.0321)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Bike Utilization_Full Data' inline='true' name='federated.156g03s0hpouwg115g68c0o7jh1z' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Bike Utilization_Full Data' name='textscan.0vl9mly0kk8alc1gjv2dm0fds2hd'>
+            <connection class='textscan' directory='C:/Users/Joshua/Desktop' filename='Bike Utilization_Full Data.csv' password='' port='0' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0vl9mly0kk8alc1gjv2dm0fds2hd' name='Bike Utilization_Full Data.csv' table='[Bike Utilization_Full Data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Bikeid' ordinal='0' />
+            <column datatype='integer' name='Birth Year' ordinal='1' />
+            <column datatype='string' name='End Station Name' ordinal='2' />
+            <column datatype='integer' name='Gender' ordinal='3' />
+            <column datatype='string' name='Number to String' ordinal='4' />
+            <column datatype='string' name='Start Station Name' ordinal='5' />
+            <column datatype='datetime' name='Starttime' ordinal='6' />
+            <column datatype='datetime' name='Stoptime' ordinal='7' />
+            <column datatype='string' name='Usertype' ordinal='8' />
+            <column datatype='integer' name='End Station Id' ordinal='9' />
+            <column datatype='real' name='End Station Latitude' ordinal='10' />
+            <column datatype='real' name='End Station Longitude' ordinal='11' />
+            <column datatype='integer' name='Start Station Id' ordinal='12' />
+            <column datatype='real' name='Start Station Latitude' ordinal='13' />
+            <column datatype='real' name='Start Station Longitude' ordinal='14' />
+            <column datatype='integer' name='Tripduration' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0vl9mly0kk8alc1gjv2dm0fds2hd' name='Bike Utilization_Full Data.csv' table='[Bike Utilization_Full Data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Bikeid' ordinal='0' />
+            <column datatype='integer' name='Birth Year' ordinal='1' />
+            <column datatype='string' name='End Station Name' ordinal='2' />
+            <column datatype='integer' name='Gender' ordinal='3' />
+            <column datatype='string' name='Number to String' ordinal='4' />
+            <column datatype='string' name='Start Station Name' ordinal='5' />
+            <column datatype='datetime' name='Starttime' ordinal='6' />
+            <column datatype='datetime' name='Stoptime' ordinal='7' />
+            <column datatype='string' name='Usertype' ordinal='8' />
+            <column datatype='integer' name='End Station Id' ordinal='9' />
+            <column datatype='real' name='End Station Latitude' ordinal='10' />
+            <column datatype='real' name='End Station Longitude' ordinal='11' />
+            <column datatype='integer' name='Start Station Id' ordinal='12' />
+            <column datatype='real' name='Start Station Latitude' ordinal='13' />
+            <column datatype='real' name='Start Station Longitude' ordinal='14' />
+            <column datatype='integer' name='Tripduration' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Bike Utilization_Full Data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bikeid</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Bikeid]</local-name>
+            <parent-name>[Bike Utilization_Full Data.csv]</parent-name>
+            <remote-alias>Bikeid</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Bike Utilization_Full Data.csv_E30ABC6F041D47BCBBCCE5D68CD595E8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Birth Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Birth Year]</local-name>
+            <parent-name>[Bike Utilization_Full Data.csv]</parent-name>
+            <remote-alias>Birth Year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Bike Utilization_Full Data.csv_E30ABC6F041D47BCBBCCE5D68CD595E8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>End Station Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[End Station Name]</local-name>
+            <parent-name>[Bike Utilization_Full Data.csv]</parent-name>
+            <remote-alias>End Station Name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Bike Utilization_Full Data.csv_E30ABC6F041D47BCBBCCE5D68CD595E8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[Bike Utilization_Full Data.csv]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Bike Utilization_Full Data.csv_E30ABC6F041D47BCBBCCE5D68CD595E8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number to String</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Number to String]</local-name>
+            <parent-name>[Bike Utilization_Full Data.csv]</parent-name>
+            <remote-alias>Number to String</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Bike Utilization_Full Data.csv_E30ABC6F041D47BCBBCCE5D68CD595E8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Start Station Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Start Station Name]</local-name>
+            <parent-name>[Bike Utilization_Full Data.csv]</parent-name>
+            <remote-alias>Start Station Name</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Bike Utilization_Full Data.csv_E30ABC6F041D47BCBBCCE5D68CD595E8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Starttime</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Starttime]</local-name>
+            <parent-name>[Bike Utilization_Full Data.csv]</parent-name>
+            <remote-alias>Starttime</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Bike Utilization_Full Data.csv_E30ABC6F041D47BCBBCCE5D68CD595E8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Stoptime</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Stoptime]</local-name>
+            <parent-name>[Bike Utilization_Full Data.csv]</parent-name>
+            <remote-alias>Stoptime</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Bike Utilization_Full Data.csv_E30ABC6F041D47BCBBCCE5D68CD595E8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Usertype</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Usertype]</local-name>
+            <parent-name>[Bike Utilization_Full Data.csv]</parent-name>
+            <remote-alias>Usertype</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Bike Utilization_Full Data.csv_E30ABC6F041D47BCBBCCE5D68CD595E8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>End Station Id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[End Station Id]</local-name>
+            <parent-name>[Bike Utilization_Full Data.csv]</parent-name>
+            <remote-alias>End Station Id</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Bike Utilization_Full Data.csv_E30ABC6F041D47BCBBCCE5D68CD595E8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>End Station Latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[End Station Latitude]</local-name>
+            <parent-name>[Bike Utilization_Full Data.csv]</parent-name>
+            <remote-alias>End Station Latitude</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Bike Utilization_Full Data.csv_E30ABC6F041D47BCBBCCE5D68CD595E8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>End Station Longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[End Station Longitude]</local-name>
+            <parent-name>[Bike Utilization_Full Data.csv]</parent-name>
+            <remote-alias>End Station Longitude</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Bike Utilization_Full Data.csv_E30ABC6F041D47BCBBCCE5D68CD595E8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Start Station Id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Start Station Id]</local-name>
+            <parent-name>[Bike Utilization_Full Data.csv]</parent-name>
+            <remote-alias>Start Station Id</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Bike Utilization_Full Data.csv_E30ABC6F041D47BCBBCCE5D68CD595E8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Start Station Latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Start Station Latitude]</local-name>
+            <parent-name>[Bike Utilization_Full Data.csv]</parent-name>
+            <remote-alias>Start Station Latitude</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Bike Utilization_Full Data.csv_E30ABC6F041D47BCBBCCE5D68CD595E8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Start Station Longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Start Station Longitude]</local-name>
+            <parent-name>[Bike Utilization_Full Data.csv]</parent-name>
+            <remote-alias>Start Station Longitude</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Bike Utilization_Full Data.csv_E30ABC6F041D47BCBBCCE5D68CD595E8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tripduration</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tripduration]</local-name>
+            <parent-name>[Bike Utilization_Full Data.csv]</parent-name>
+            <remote-alias>Tripduration</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Bike Utilization_Full Data.csv_E30ABC6F041D47BCBBCCE5D68CD595E8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='Sum' datatype='integer' name='[Bikeid]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Birth Year]' role='dimension' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[End Station Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[End Station Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Start Station Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Start Station Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Bike Utilization_Full Data.csv' datatype='table' name='[__tableau_internal_object_id__].[Bike Utilization_Full Data.csv_E30ABC6F041D47BCBBCCE5D68CD595E8]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Bike Utilization_Full Data.csv' id='Bike Utilization_Full Data.csv_E30ABC6F041D47BCBBCCE5D68CD595E8'>
+            <properties context=''>
+              <relation connection='textscan.0vl9mly0kk8alc1gjv2dm0fds2hd' name='Bike Utilization_Full Data.csv' table='[Bike Utilization_Full Data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='Bikeid' ordinal='0' />
+                  <column datatype='integer' name='Birth Year' ordinal='1' />
+                  <column datatype='string' name='End Station Name' ordinal='2' />
+                  <column datatype='integer' name='Gender' ordinal='3' />
+                  <column datatype='string' name='Number to String' ordinal='4' />
+                  <column datatype='string' name='Start Station Name' ordinal='5' />
+                  <column datatype='datetime' name='Starttime' ordinal='6' />
+                  <column datatype='datetime' name='Stoptime' ordinal='7' />
+                  <column datatype='string' name='Usertype' ordinal='8' />
+                  <column datatype='integer' name='End Station Id' ordinal='9' />
+                  <column datatype='real' name='End Station Latitude' ordinal='10' />
+                  <column datatype='real' name='End Station Longitude' ordinal='11' />
+                  <column datatype='integer' name='Start Station Id' ordinal='12' />
+                  <column datatype='real' name='Start Station Latitude' ordinal='13' />
+                  <column datatype='real' name='Start Station Longitude' ordinal='14' />
+                  <column datatype='integer' name='Tripduration' ordinal='15' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Bike Utilization_Full Data' name='federated.156g03s0hpouwg115g68c0o7jh1z' />
+          </datasources>
+          <datasource-dependencies datasource='federated.156g03s0hpouwg115g68c0o7jh1z'>
+            <column aggregation='Sum' datatype='integer' name='[Bikeid]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Gender]' role='measure' type='quantitative' />
+            <column-instance column='[Bikeid]' derivation='None' name='[none:Bikeid:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Gender]' derivation='Sum' name='[sum:Gender:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.156g03s0hpouwg115g68c0o7jh1z].[sum:Gender:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.156g03s0hpouwg115g68c0o7jh1z].[none:Gender:ok]</rows>
+        <cols>[federated.156g03s0hpouwg115g68c0o7jh1z].[none:Bikeid:ok]</cols>
+      </table>
+      <simple-id uuid='{BC213C04-7075-44A0-B989-AB4F7AC59FDF}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.156g03s0hpouwg115g68c0o7jh1z].[none:Bikeid:ok]</field>
+            <field>[federated.156g03s0hpouwg115g68c0o7jh1z].[none:Usertype:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{3D24DF50-DC87-422A-A96A-86374D90F8EE}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='104' name='Sheet 1' width='144'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
