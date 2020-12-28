@@ -9,8 +9,7 @@ if it seems feasible to start our own bikesharing company in Des Moines, Iowa. I
 from Citibikes website, in order to build data visualizations using Tableau to help us better estimate the ability to run a 
 profitable bike sharing service in Des Moines.
 
-Here is the link to my finished Tableau story.
-[link to dashboard](https://public.tableau.com/profile/joshua.severin#!/vizhome/Challenge_16082748087030/Proposal)
+Here is the link to my [finished Tableau story](https://public.tableau.com/profile/joshua.severin#!/vizhome/Challenge_16082748087030/Proposal)
 
 ## Results
 
